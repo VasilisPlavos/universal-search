@@ -46,9 +46,15 @@ git clone https://github.com/yourusername/universal-search.git
 
 Or simply download `universal-search.html` and double-click to open.
 
-## Customization
+## Contributing
 
-To add or remove search engines, edit the `categories` array in the JavaScript section:
+Contributions are welcome! The easiest way to contribute is by adding new search engines.
+
+### Adding a Search Engine
+
+1. Fork this repository
+2. Edit `universal-search.html`
+3. Add your engine to the appropriate category in the `categories` array:
 
 ```javascript
 {
@@ -59,6 +65,22 @@ To add or remove search engines, edit the `categories` array in the JavaScript s
   extra: '&type=web'    // optional extra parameters
 }
 ```
+
+4. Test it locally
+5. Submit a pull request
+
+### Ideas for New Engines
+
+- ChatGPT, Gemini, Perplexity
+- Bing, Yahoo, Brave Search
+- Reddit, Twitter/X, LinkedIn
+- Amazon, eBay, AliExpress
+- GitHub, Stack Overflow
+- Spotify, SoundCloud
+- IMDb, Rotten Tomatoes
+- News sites (Google News, BBC, CNN)
+
+Feel free to suggest new categories too!
 
 ## License
 
